@@ -276,8 +276,8 @@ EOT
         echo -e "${YELLOW}Команда для проверки логов:${NC}" 
         echo "sudo journalctl -u hemi -f"
         echo -e "${PURPLE}-----------------------------------------------------------------------${NC}"
-        echo -e "${GREEN}CRYPTO FORTOCHKA — вся крипта в одном месте!${NC}"
-        echo -e "${CYAN}Наш Telegram https://t.me/cryptoforto${NC}"
+        echo -e "${GREEN}Evenor.eth - your crypto guide${NC}"
+        echo -e "${CYAN}Author's tg - https://t.me/threedotcrypto"
         ;;
     5)
         sudo journalctl -u hemi -f
