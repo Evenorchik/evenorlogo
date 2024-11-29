@@ -112,8 +112,8 @@ EOT
         echo -e "${YELLOW}Команда для проверки логов:${NC}" 
         echo "sudo journalctl -u hemi -f"
         echo -e "${PURPLE}-----------------------------------------------------------------------${NC}"
-        echo -e "${GREEN}CRYPTO FORTOCHKA — вся крипта в одном месте!${NC}"
-        echo -e "${CYAN}Наш Telegram https://t.me/cryptoforto${NC}"
+        echo -e "${GREEN}Evenor.eth - your crypto guide${NC}${NC}"
+        echo -e "${CYAN}Author's tg - https://t.me/threedotcrypto"
         ;;
     2)
         echo -e "${BLUE}Обновляем ноду Hemi...${NC}"
@@ -212,8 +212,8 @@ EOT
         echo -e "${YELLOW}Команда для проверки логов:${NC}" 
         echo "sudo journalctl -u hemi -f"
         echo -e "${PURPLE}-----------------------------------------------------------------------${NC}"
-        echo -e "${GREEN}CRYPTO FORTOCHKA — вся крипта в одном месте!${NC}"
-        echo -e "${CYAN}Наш Telegram https://t.me/cryptoforto${NC}"
+        echo -e "${GREEN}Evenor.eth - your crypto guide!${NC}"
+        echo -e "${CYAN}Author's tg - https://t.me/threedotcrypto"
         ;;
     3)
         echo -e "${YELLOW}Укажите новое значение комиссии (минимум 50):${NC}"
@@ -235,8 +235,8 @@ EOT
             echo -e "${YELLOW}Команда для проверки логов:${NC}" 
             echo "sudo journalctl -u hemi -f"
             echo -e "${PURPLE}-----------------------------------------------------------------------${NC}"
-            echo -e "${GREEN}CRYPTO FORTOCHKA — вся крипта в одном месте!${NC}"
-            echo -e "${CYAN}Наш Telegram https://t.me/cryptoforto${NC}"
+            echo -e "${GREEN}Evenor.eth - your crypto guide!${NC}"
+            echo -e "${CYAN}Author's tg - https://t.me/threedotcrypto"
         else
             echo -e "${RED}Ошибка: комиссия должна быть не меньше 50!${NC}"
         fi
