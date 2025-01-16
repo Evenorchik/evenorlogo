@@ -45,11 +45,11 @@ case $choice in
 
         # Download the binary
         echo -e "${BLUE}Downloading Hemi binary...${NC}"
-        curl -L -O https://github.com/hemilabs/heminetwork/releases/download/v0.7.0/heminetwork_v0.7.0_linux_amd64.tar.gz
+        curl -L -O https://github.com/hemilabs/heminetwork/releases/download/v0.10.0/heminetwork_v0.10.0_linux_amd64.tar.gz
 
         # Create a directory and extract the binary
         mkdir -p hemi
-        tar --strip-components=1 -xzvf heminetwork_v0.7.0_linux_amd64.tar.gz -C hemi
+        tar --strip-components=1 -xzvf heminetwork_v0.10.0_linux_amd64.tar.gz -C hemi
         cd hemi
 
         # Create a tBTC wallet
@@ -151,11 +151,11 @@ EOT
 
         # Download the binary
         echo -e "${BLUE}Downloading Hemi binary...${NC}"
-        curl -L -O https://github.com/hemilabs/heminetwork/releases/download/v0.7.0/heminetwork_v0.7.0_linux_amd64.tar.gz
+        curl -L -O https://github.com/hemilabs/heminetwork/releases/download/v0.10.0/heminetwork_v0.10.0_linux_amd64.tar.gz
 
         # Create a directory and extract the binary
         mkdir -p hemi
-        tar --strip-components=1 -xzvf heminetwork_v0.7.0_linux_amd64.tar.gz -C hemi
+        tar --strip-components=1 -xzvf heminetwork_v0.10.0_linux_amd64.tar.gz -C hemi
         cd hemi
 
         # Request private key and fee
